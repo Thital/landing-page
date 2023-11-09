@@ -2,19 +2,22 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #FFF0CE;
+    background-color: #ffffff;
 }
 .header {
     display: flex;
-    background-color: #0C356A;
-    color: #FFF0CE;
+    background-color: #1f2937;
+    color: #ffffff;
     justify-content: space-around;
     padding-left: 18px;
 }
+.header-logo{
+    font-size: 40px;
+}
 .section-1{
     height: 300px;
-    background-color:#0C356A ;
-    color: #FFF0CE;
+    background-color:#1f2937 ;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,30 +27,35 @@ body {
 }
 .section-2{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     flex-wrap: wrap;
+    margin: 32px;
+    
 }
 .card{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border-radius: 2%;
     height: 300px;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
 
 }
 .section-3{
     display: flex;
     font-size: 24px;
-    background-color: grey;
+    background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
 
     
 }
 
+img{
+    border-radius: 8px;
+}
 ul {
     display: flex;
     margin: 16px;
@@ -57,4 +65,15 @@ ul {
 }
 li {
     padding-left: 24px;
+}
+button{
+    background-color: #3b82f6;
+    color:#ffff;
+    border: #3b82f6;
+    font-weight: 700;
+    padding: 8px 34px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
 }

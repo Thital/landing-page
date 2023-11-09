@@ -44,15 +44,25 @@ body {
 
 }
 .section-3{
+    background-size: cover;
     display: flex;
-    font-size: 24px;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: 300;
     background-color: #e5e7eb;
+    padding: 48px;
     justify-content: center;
     align-items: center;
+    align-self: center;
+    height: 350px;
+    width: 800px;
 
     
 }
-
+.name{
+    align-self: flex-end;
+    
+}
 img{
     border-radius: 8px;
 }

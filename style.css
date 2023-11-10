@@ -51,7 +51,6 @@ body {
     flex-direction: column;
     font-size: 32px;
     font-weight: 300;
-    background-color: #e5e7eb;
     padding: 48px;
     justify-content: center;
     align-items: center;
@@ -60,6 +59,12 @@ body {
     width: 800px;
 
     
+}
+.quote-background{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .name{
     align-self: flex-end;
@@ -94,8 +99,7 @@ li {
 button{
     background-color: #3b82f6;
     color:#ffff;
-    border: 8px;
-    border-color: #ffffff;
+    border: none;
     font-weight: 700;
     padding: 8px 34px;
     text-align: center;
@@ -103,7 +107,9 @@ button{
     border-radius: 8px;
     font-size: 16px;
 }
-.btn{
+button.btn{
+    background-color: #ffffff;
+    color: #3b82f6;
     align-self: center;
 
 
